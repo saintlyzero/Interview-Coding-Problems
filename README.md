@@ -1,2 +1,2 @@
 # Interview-Coding-Problems
-Some common Interview coding problems done using Java
+Some common Interview coding problems implemented using Java
