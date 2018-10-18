@@ -1,6 +1,11 @@
 
-//For Explanation refer: https://www.youtube.com/watch?v=DxW7VAsdX0o
-
+/*
+*
+*
+Program to implement N stacks in a single array
+For Explanation refer: https://www.youtube.com/watch?v=DxW7VAsdX0o
+*
+*/
 class Stacks
 {
 	int[] stackTop; // Holds the location of Top for every stack
