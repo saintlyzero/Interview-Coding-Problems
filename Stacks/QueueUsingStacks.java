@@ -27,7 +27,7 @@ class QueueUsingStacks {
 	static int pop(Stack<Integer> top_ref) 
 	{
 		if (top_ref.isEmpty())
-	        return -1;
+	        	return -1;
 
 		return top_ref.pop(); 
 	}
