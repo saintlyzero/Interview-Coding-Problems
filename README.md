@@ -10,6 +10,7 @@ Some common Interview coding problems implemented using Java
 - [Implement N stacks in a array](/Stacks/NStacks.java)
 - [Implement s Stack with push(), pop(), getMinimumElement() in O(1)](/Stacks/SpecialStack.java)
 - [Implement Queue using stacks](/Stacks/QueueUsingStacks.java)
+- [Write a program to sort a stack such that the smallest items are on the top](/Stacks/StackSorting.java)
 
 ## Matrix
 - [Rotating a N x N Matrix by 90 Degrees](/Matrix/MatrixRotation.java)
