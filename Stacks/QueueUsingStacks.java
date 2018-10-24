@@ -6,7 +6,7 @@ import java.util.Stack;
 
     deQueue(q)
     1) If both stacks are empty then error.
-    2) If stack2 is empty
+    2) If stack2 is empty:
          While stack1 is not empty, push everything from stack1 to stack2.
     3) Pop the element from stack2 and return it.
     time complexity O(n)
