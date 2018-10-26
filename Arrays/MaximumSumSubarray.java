@@ -11,11 +11,13 @@ class  MaximumSumSubarray
 	public static void main(String args[])
 	{
 		int arr[] = {-2,3,2,-1};
-		int maxSum = findMaxSumOfSubarray(arr);
+	
 		
-		System.out.println("Max Sum: "+maxSum);
+		System.out.println("Max Sum (i): "+findMaxSumOfSubarray1(arr));
+		System.out.println("Max Sum (ii): "+findMaxSumOfSubarray2(arr));
 	}
-	static int findMaxSumOfSubarray(int arr[])
+	// Method 1
+	static int findMaxSumOfSubarray1(int arr[])
 	{
 		int max = Integer.MIN_VALUE;
 		int count = 0;
@@ -31,4 +33,19 @@ class  MaximumSumSubarray
 		}
 		return max;
 	}
+	// Method 2
+	static int findMaxSumOfSubarray2(int arr[])
+	{
+		int max_current= arr[0]; 
+		int max_global = arr[0];
+		
+		for(int i=1;i<arr.length;i++)
+		{
+			max_current = arr[i] > (max_current+arr[i]) ? arr[i]:(max_current+arr[i]);
+			if(max_current > max_global)
+				max_global = max_current;
+		}
+		return max_global;
+	}
+	
 }
