@@ -59,6 +59,7 @@ class SpecialStack
             secondaryStack.push(secondaryTop);
         return primaryTop;
     }
+    // Get the top of secondary stack
     static int getMin(Stack primaryStack, Stack secondaryStack)
     {
         if(primaryStack.empty())
