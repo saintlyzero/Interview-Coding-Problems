@@ -16,7 +16,7 @@ Some common Interview coding problems implemented using Java
 - [Finding Maximum Sum Subarray (using Kadane's Algorithm)](/Arrays/MaximumSumSubarray.java)
 
 ## Trees
-- [Finding Maximum and Minimum elemeent of Binary Search Tree](/Trees/FindMinMaxBST.java)
+- [Finding Maximum and Minimum element of a Binary Search Tree](/Trees/FindMinMaxBST.java)
 
 
 ## Matrix
