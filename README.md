@@ -15,6 +15,10 @@ Some common Interview coding problems implemented using Java
 ## Arrays
 - [Finding Maximum Sum Subarray (using Kadane's Algorithm)](/Arrays/MaximumSumSubarray.java)
 
+## Trees
+- [Finding Maximum and Minimum elemeent of Binary Search Tree](/Trees/FindMinMaxBST.java)
+
+
 ## Matrix
 - [Rotating a N x N Matrix by 90 Degrees](/Matrix/MatrixRotation.java)
 
