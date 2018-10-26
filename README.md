@@ -12,5 +12,9 @@ Some common Interview coding problems implemented using Java
 - [Implement Queue using stacks](/Stacks/QueueUsingStacks.java)
 - [Write a program to sort a stack such that the smallest items are on the top](/Stacks/StackSorting.java)
 
+## Arrays
+- [Finding Maximum Sum Subarray (using Kadane's Algorithm)](/Arrays/MaximumSumSubarray.java)
+
 ## Matrix
 - [Rotating a N x N Matrix by 90 Degrees](/Matrix/MatrixRotation.java)
+
