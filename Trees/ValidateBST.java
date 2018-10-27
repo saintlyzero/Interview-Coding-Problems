@@ -1,3 +1,10 @@
+/*
+
+	Explanation: https://www.youtube.com/watch?v=yEwSGhSsT0U&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=35
+
+
+*/
+
 class BSTNode
 {
 	int data;
@@ -23,13 +30,16 @@ class ValidateBST
 		
 		/*
 		
-					
-					10
- 				  /	   \
-				5		20
-			  /   \		/ \
-			2	   8  15  30		
-		
+
+				      10
+
+ 				    /	 \
+
+			       	   5       20
+
+		 	         /  \ 	  /   \
+
+				2     8  15   30
 		
 		*/
 		
@@ -41,14 +51,14 @@ class ValidateBST
 		root.right.left = new BSTNode(15);
 		root.right.right = new BSTNode(30);
 		
-		System.out.println("Binary Search Tree: "+isBST(root));
+		System.out.println("Binary Search Tree? -> "+isBST(root));
 		
 		
 	}
-	static boolean isBST(BSTNode root)
+	static boolean isBST(BSTNode root) // utility function
 	{
 		
-		return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+		return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE); //MIN_VALUE and MAX_VALUE are constants in Java
 	}
 	static boolean isBST(BSTNode root, int min, int max)
 	{
