@@ -18,7 +18,7 @@ Some common Interview coding problems implemented using Java
 ## Trees
 - [Finding Maximum and Minimum element of a Binary Search Tree](/Trees/FindMinMaxBST.java)
 - [Finding Height of a Binary Tree](/Trees/HeightOfBinaryTree.java)
-- [Check if a binary tree is binary search tree or not](/Trees/ValidateBST.java)
+- [Check if a binary tree is a Binary Search Tree or not](/Trees/ValidateBST.java)
 
 
 
