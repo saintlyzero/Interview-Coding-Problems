@@ -4,8 +4,8 @@ class  MaximumSumSubarray
 	* 	Using Kadane's Algorithm
 	* 	Explanation: https://www.youtube.com/watch?v=86CQq3pKSUw
 	*
-	*	Time  : O(n)
- 	*	Space : O(1)
+	*	Time complexity : O(n)
+ 	*	Space complexity : O(1)
 	*/
 	
 	public static void main(String args[])
