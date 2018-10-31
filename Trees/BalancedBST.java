@@ -20,16 +20,16 @@ class BalancedBST
 	public static void main(String args[])
 	{
 		
-		
 		/*
-		
-					
-					10
- 				  /	   \
-				5		20
-			  /   \		/ \
-			2	   8  15  30		
-		
+				      10
+
+ 				    /	 \
+
+			       	   5       20
+
+		 	         /  \ 	  /   \
+
+				2     8  15   30	
 		
 		*/
 		
