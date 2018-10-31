@@ -43,6 +43,14 @@ class BalancedBST
 		
 		System.out.println("Balanced? : "+isBalanced(root)); // Expected op : true		
 	}
+	
+	static Boolean isBalanced(BSTNode root)
+	{
+		return checkHeight(root) != Integer.MIN_VALUE;
+		// returns true for value other than Integer.MIN_VALUE
+		// Integer.MIN_VALUE is just used as an Error Code for reference
+	}
+	
 	static int checkHeight(BSTNode root)
 	{
 		if(root == null)
@@ -62,8 +70,5 @@ class BalancedBST
 		else
 			return Math.max(leftHeight,rightHeight)+1;
 	}
-	static Boolean isBalanced(BSTNode root)
-	{
-		return checkHeight(root) != Integer.MIN_VALUE;
-	}
+	
 }
