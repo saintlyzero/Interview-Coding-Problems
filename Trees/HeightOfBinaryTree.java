@@ -19,19 +19,15 @@ class BSTNode
 class HeightOfBinaryTree
 {
 	public static void main(String args[])
-	{
-		
-		
+	{	
 		/*
-		
-					
+				
 				      10
  				    /	 \
 			       	   5       20
 		 	         /  \ 	  /   \
 				2     8  15   30	
-		
-		
+				
 		*/
 		
 		BSTNode root = new BSTNode(10);
