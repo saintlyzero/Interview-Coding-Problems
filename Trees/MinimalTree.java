@@ -21,21 +21,23 @@ class MinimalTree
 	{		
 		
 		/*
-		
-					
-					10
- 				  /	   \
-				5		20
-			  /   \		/ \
-			2	   8  15  30		
-		
+
+				      4
+
+ 				    /	 \
+
+			       	   2       6
+
+		 	         /  \ 	  /   \
+
+				1     3  5     7
 		
 		*/
 		
 		BSTNode root;
 		int sortedArray[] = {1,2,3,4,5,6,7};
 		root = createMinimalBST(sortedArray);
-		System.out.println("Root: "+root.getData()); // 4
+		System.out.println("Root: "+root.getData()); // Expected op: 4
 			
 	}
 	static BSTNode createMinimalBST(int[] arr)
