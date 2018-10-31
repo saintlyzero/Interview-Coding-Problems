@@ -1,5 +1,6 @@
 class BSTNode
 {
+	// Data structure for Binary Tree
 	int data;
 	BSTNode left;
 	BSTNode right;
