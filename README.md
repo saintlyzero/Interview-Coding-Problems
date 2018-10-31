@@ -20,6 +20,8 @@ Some common Interview coding problems implemented using Java
 - [Finding Height of a Binary Tree](/Trees/HeightOfBinaryTree.java)
 - [Check if a binary tree is a Binary Search Tree or not](/Trees/ValidateBST.java)
 - [Deleting a node from Binary Search Tree](/Trees/DeleteNodeBST.java)
+- [Given a sorted (increasing order) array with unique integer elements, write an algorithm to create a binary search tree with minimal height](/Trees/MinimalTree.java)
+
 
 
 
