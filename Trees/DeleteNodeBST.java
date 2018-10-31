@@ -55,7 +55,7 @@ class DeleteNodeBST
 			root.left = DeleteNode(root.left, value);
 		else if(root.getData() < value)
 			root.right = DeleteNode(root.right, value);
-		else
+		else // Found the node
 		{
 			// Node to be deleted has both children
 			if(root.left != null && root.right!= null)
@@ -77,7 +77,7 @@ class DeleteNodeBST
 			{
 				root = root.right;	
 			}
-			// If it is leaf node
+			// If it is a leaf node
 			else
 				root = null;
 			
