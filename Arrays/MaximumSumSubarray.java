@@ -13,8 +13,8 @@ class  MaximumSumSubarray
 		int arr[] = {-2,3,2,-1};
 	
 		
-		System.out.println("Max Sum (i): "+findMaxSumOfSubarray1(arr));
-		System.out.println("Max Sum (ii): "+findMaxSumOfSubarray2(arr));
+		System.out.println("Max Sum(i): "+findMaxSumOfSubarray1(arr));
+		System.out.println("Max Sum(ii): "+findMaxSumOfSubarray2(arr));
 	}
 	// Method 1
 	static int findMaxSumOfSubarray1(int arr[])
