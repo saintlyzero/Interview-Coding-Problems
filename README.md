@@ -23,6 +23,12 @@ Some common Interview coding problems implemented using Java
 - [Given a sorted array (ascending order) with unique integer elements, write an algorithm to create a binary search tree with minimal height](/Trees/MinimalTree.java)
 - [Implement a function to check if a binary tree is balanced](/Trees/BalancedBST.java)
 
+
+## Linked List
+- [Merging two Sorted Linked Lists]/LinkedLists/MergeSortedLinkedList.java)
+
 ## Matrix
 - [Rotating a N x N Matrix by 90 Degrees](/Matrix/MatrixRotation.java)
+
+
 
