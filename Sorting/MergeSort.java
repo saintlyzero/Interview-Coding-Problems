@@ -1,5 +1,9 @@
 class MergeSort
 {
+	/*
+		Time Complexity  : O(nlogn)
+		Space Complexity : O(n)
+	*/
 	static void mergeSort(int arr[], int left, int right)
 	{
 		if(left < right)
@@ -25,8 +29,9 @@ class MergeSort
 		for(int i=0;i<rightArrayLength;i++)
 			rightArray[i]=arr[mid+i+1];
 		
+		// initial index of sub-arrays
 		int i=0,j=0;
-		
+		// initial index of Merged array
 		int k = left;
 		
 		while(i<leftArrayLength && j<rightArrayLength)
@@ -43,7 +48,7 @@ class MergeSort
 			}
 			k++;
 		}
-		
+		// Copy previous contents
 		while(i<leftArrayLength)
 		{
 			arr[k]=leftArray[i];
