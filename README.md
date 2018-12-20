@@ -30,6 +30,8 @@ Some common Interview coding problems implemented using Java
 ## Linked List
 - [Merging two Sorted Linked Lists](/LinkedLists/MergeSortedLinkedList.java)
 
+## Sorting
+- [Merger Sort](/Sorting/MergeSort.java)
 ## Matrix
 - [Rotating a N x N Matrix by 90 Degrees](/Matrix/MatrixRotation.java)
 
