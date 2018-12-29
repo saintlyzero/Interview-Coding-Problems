@@ -14,6 +14,7 @@ Some common Interview coding problems implemented using Java
 
 ## Arrays
 - [Finding Maximum Sum Subarray (using Kadane's Algorithm)](/Arrays/MaximumSumSubarray.java)
+- [Counting number of Inversions in an array (using MergeSort Algorithm)](/Arrays/Inversions.java)
 
 ## Trees
 - [Finding Maximum and Minimum element of a Binary Search Tree](/Trees/FindMinMaxBST.java)
