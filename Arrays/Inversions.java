@@ -1,5 +1,9 @@
 class Inversions
 {
+	/*
+		Time Complexity: O(nlogn)
+	*/
+	
 	static int mergeSort(int arr[], int left, int right)
 	{
 		int inversions = 0;
