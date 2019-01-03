@@ -5,6 +5,7 @@ class MergeSort
 		Space Complexity : O(n)
 		
 		Fun fact: Created by John von Neumann in 1945
+			  Genre: Divide & Conquer
 			  
 	*/
 	static void mergeSort(int arr[], int left, int right)
