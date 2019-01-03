@@ -3,6 +3,9 @@ class MergeSort
 	/*
 		Time Complexity  : O(nlogn)
 		Space Complexity : O(n)
+		
+		Fun fact: Created by John von Neumann in 1945
+			  
 	*/
 	static void mergeSort(int arr[], int left, int right)
 	{
