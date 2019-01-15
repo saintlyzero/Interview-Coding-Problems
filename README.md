@@ -33,6 +33,7 @@ Some common Interview coding problems implemented using Java
 
 ## Sorting
 - [Merge Sort](/Sorting/MergeSort.java)
+- [Sorting array depending on the Frequency of each element](/Sorting/FrequencySort.java)
 ## Matrix
 - [Rotating a N x N Matrix by 90 Degrees](/Matrix/MatrixRotation.java)
 
