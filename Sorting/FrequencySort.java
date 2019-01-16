@@ -76,11 +76,9 @@ class FrequencySort
 		for(Integer i: sortedMap.keySet())
 		{
 			int frequencey = sortedMap.get(i);
-            for(int count  = 1 ; count <= frequencey ; count++) 
-               System.out.print(i + " " );
+           		for(int count  = 1 ; count <= frequencey ; count++) 
+               		System.out.print(i + " " );
 		}
-		
-		
 		
 	}
 }
