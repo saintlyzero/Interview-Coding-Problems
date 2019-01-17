@@ -1,5 +1,7 @@
 class SmallestWindowSubstring
 {
+	// Explanation: https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+	
 	static final int CHARS = 256;
 
 	public static String smallestWindow(String str, String pattern)
