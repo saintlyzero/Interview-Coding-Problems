@@ -16,7 +16,7 @@ Some common Interview coding problems implemented using Java
 - [Finding Maximum Sum Subarray (using Kadane's Algorithm)](/Arrays/MaximumSumSubarray.java)
 - [Counting number of Inversions in an array (using MergeSort Algorithm)](/Arrays/Inversions.java)
 - [Find the smallest window in a string containing all characters of another string (Unordered)](/Arrays/SmallestWindowSubstring.java)
-- [Find the smallest window in a string containing all characters of another string (Unordered)](/Arrays/Find.java)
+- [Find the smallest window in a string containing all characters of another string (Unordered)](/Arrays/FindPairs.java)
 
 ## Trees
 - [Finding Maximum and Minimum element of a Binary Search Tree](/Trees/FindMinMaxBST.java)
