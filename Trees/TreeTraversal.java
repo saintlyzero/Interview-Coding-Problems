@@ -53,6 +53,8 @@ class TreeTraversal
 	}
 	static void BFS(BSTNode root)
 	{
+		// Time Complexity: O(n+m)
+		// n: number of nodes; m: number of edges
 		// BFS is mostly used for finding Shortest Path
 		
 		if(root==null)
