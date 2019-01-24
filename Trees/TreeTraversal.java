@@ -53,6 +53,8 @@ class TreeTraversal
 	}
 	static void BFS(BSTNode root)
 	{
+		// BFS is mostly used for finding Shortest Path
+		
 		if(root==null)
 			return;
 		
@@ -75,6 +77,8 @@ class TreeTraversal
 	
 	static void DFS(BSTNode root)
 	{
+		// DFS is mostly used for exploring maze, where backtracking is minimal
+
 		Stack<BSTNode> stack = new Stack<BSTNode>();
 		
 		stack.add(root);
