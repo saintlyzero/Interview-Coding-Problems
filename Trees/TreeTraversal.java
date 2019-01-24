@@ -80,6 +80,8 @@ class TreeTraversal
 	
 	static void DFS(BSTNode root)
 	{
+		// Time Complexity: O(n+m)
+		// n: number of nodes; m: number of edges
 		// DFS is mostly used for exploring maze, where backtracking is minimal
 
 		Stack<BSTNode> stack = new Stack<BSTNode>();
