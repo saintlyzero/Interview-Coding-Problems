@@ -55,7 +55,8 @@ class TreeTraversal
 	{
 		// Time Complexity: O(n+m)
 		// n: number of nodes; m: number of edges
-		// BFS is mostly used for finding Shortest Path
+		// Applications: 
+		// Finding Shortest Path; Checking disconnected Nodes
 		
 		if(root==null)
 			return;
