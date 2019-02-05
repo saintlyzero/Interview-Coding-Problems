@@ -1,7 +1,10 @@
 
 class Spiral { 	
 	
-
+	//  Time Complexity: O(mn)
+	//  m: Number of Rows
+	//  n: Number of Columns
+	
 	static void spiral(int[][] a)
 	{
 		 int i, k = 0, l = 0; 
