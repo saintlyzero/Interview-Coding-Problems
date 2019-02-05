@@ -71,6 +71,6 @@ class Spiral {
 
 		System.out.println("\n Spiral: \n");
 		spiral(arr);
-		//System.out.println(a.indexOf(b)); 
+		
 	} 
 } 
