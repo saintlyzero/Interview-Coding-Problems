@@ -1,7 +1,7 @@
 
 ### Interview-Coding-Problems
 
-Some common Interview coding problems implemented using Java
+Some common Interview coding problems solved using Java
 
 ## Books
 - [Cracking the coding Interview 6th Edition](https://drive.google.com/file/d/1SSFgP4PlNgqXBWxa5PcyCMmOUhtsyTJt/view?usp=sharing)
