@@ -1,4 +1,4 @@
-//Recurssion
+// Using Recurssion
 SinglyLinkedList mergeLists(SinglyLinkedList head1, SinglyLinkedList head2)
 { 
 	if(head1 == null)
