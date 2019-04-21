@@ -25,6 +25,7 @@ Some common Interview coding problems implemented in Java
 - [Deleting a node from Binary Search Tree](/Trees/DeleteNodeBST.java)
 - [Given a sorted array (ascending order) with unique integer elements, write an algorithm to create a binary search tree with minimal height](/Trees/MinimalTree.java)
 - [Implement a function to check if a binary tree is balanced](/Trees/BalancedBST.java)
+- [Given a BST, transform it into greater sum tree where each node contains sum of all nodes greater than that node](/Trees/GreaterBST.java)
 - [Binary Tree Traversal using BFS | DFS](/Trees/TreeTraversal.java)
 
 
