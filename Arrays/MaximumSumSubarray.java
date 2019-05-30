@@ -16,7 +16,11 @@ class  MaximumSumSubarray
 		System.out.println("Max Sum(i): "+findMaxSumOfSubarray1(arr));
 		System.out.println("Max Sum(ii): "+findMaxSumOfSubarray2(arr));
 	}
-	// Method 1
+	
+	/*
+		Method 1
+		This does not work when all numbers are negative
+	*/
 	static int findMaxSumOfSubarray1(int arr[])
 	{
 		int max = Integer.MIN_VALUE;
