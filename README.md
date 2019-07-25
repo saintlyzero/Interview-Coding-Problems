@@ -5,6 +5,8 @@ Some common Interview coding problems implemented in Java
 
 ## Books
 - [Cracking the coding Interview 6th Edition](https://drive.google.com/file/d/1SSFgP4PlNgqXBWxa5PcyCMmOUhtsyTJt/view?usp=sharing)
+- [Elements of Programming Interviews Java](https://drive.google.com/open?id=1DRGcYVSkB83YFH1lwBGlFD8mskmrXmM4)
+
 
 ## Stacks
 - [Implement N stacks in a array](/Stacks/NStacks.java)
