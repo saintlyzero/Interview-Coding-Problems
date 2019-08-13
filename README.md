@@ -20,6 +20,7 @@ Some common Interview coding problems implemented in Java
 - [Find the smallest window in a string containing all characters of another string (Unordered)](/Arrays/SmallestWindowSubstring.java)
 - [Find all pairs (a, b) in an array such that a % b = k](/Arrays/FindPairs.java)
 - [Dutch National Flag Problem](/Arrays/DutchNationalFlag.java)
+- [Spiral Traversal of N x N Matrix](/Arrays/SpiralTraversalMatrixNxN.java)
 
 ## Trees
 - [Finding Maximum and Minimum element of a Binary Search Tree](/Trees/FindMinMaxBST.java)
