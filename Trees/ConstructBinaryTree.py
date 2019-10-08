@@ -1,20 +1,34 @@
+# Example: 
+# preorder = [3,9,20,15,7]
+# inorder = [9,3,15,20,7]
+# Return the following binary tree:
+
+#     3
+#    / \
+#   9  20
+#     /  \
+#    15   7
+
+
+
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
 
 class ConstructTree:
     
     def buildTree(self, preorder, inorder):
-      '''
-        preorder -> list containing preorder traversal nodes
-        
-        inorder -> list containing inorder traversal nodes
-        
-        returns the root of the tree
-      '''
+        '''
+          preorder -> list containing preorder traversal nodes
+          
+          inorder -> list containing inorder traversal nodes
+          
+          returns the root of the tree
+        '''
       
         node_to_inorder_idx = {}
         for idx, n in enumerate(inorder):
