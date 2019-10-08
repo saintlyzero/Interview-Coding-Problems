@@ -10,6 +10,10 @@
 #    15   7
 
 
+# Key insights:
+# 1. Preorder sequence gives us the key of the root node which is the first node in the sequence
+# 2. we can use the left subtree inorder sequence to compute the preorder sequence for the left subtree from the preorder sequence for the entire tree.
+
 
 # Definition for a binary tree node.
 class TreeNode:
