@@ -41,12 +41,15 @@ Some common Interview coding problems implemented using Java / Python
 
 ## Heaps
 - [Find the kth largest element in an unsorted array.](/Heaps/KLargestElement.java)
+- [Find the kth smallest element in an unsorted array.](/Heaps/KSmallestElement.java)
 
 
 ## Sorting
 - [Merge Sort](/Sorting/MergeSort.java)
 - [Sorting array depending on the Frequency of each element](/Sorting/FrequencySort.java)
 - [Sorting array depending on the Frequency of each element in ascending order and if frequencies are equal, then sort the elements in ascending order](/Sorting/SortByFrequency.java)
+
+
 ## Matrix
 - [Rotating a N x N Matrix by 90 Degrees](/Matrix/MatrixRotation.java)
 - [Print a given matrix in spiral form](/Matrix/Spiral.java)
