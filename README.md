@@ -54,6 +54,8 @@ Some common Interview coding problems implemented using Java / Python
 ## Matrix
 - [Rotating a N x N Matrix by 90 Degrees](/Matrix/MatrixRotation.java)
 - [Print a given matrix in spiral form](/Matrix/Spiral.java)
+- [Design an algorithm that takes a 2D sorted array and a number and checks whether
+that number appears in the array](/Matrix/SortedMatrix.java)
 
 
 
