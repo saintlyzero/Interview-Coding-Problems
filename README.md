@@ -42,6 +42,7 @@ Some common Interview coding problems implemented using Java / Python
 ## Heaps
 - [Find the kth largest element in an unsorted array.](/Heaps/KLargestElement.java)
 - [Find the kth smallest element in an unsorted array.](/Heaps/KSmallestElement.java)
+- [Find the Running Median from a Data Stream.](/Heaps/RunningMeadian.java)
 
 
 ## Sorting
