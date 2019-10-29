@@ -22,6 +22,7 @@ Some common Interview coding problems implemented using Java / Python
 - [Dutch National Flag Problem](/Arrays/DutchNationalFlag.java)
 - [Spiral Traversal of N x N Matrix](/Arrays/SpiralTraversalMatrixNxN.java)
 - [Trapping Rain Water : Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.](/Arrays/TrappingRainWater.java)
+<br>
 ![](https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png)
 
 
