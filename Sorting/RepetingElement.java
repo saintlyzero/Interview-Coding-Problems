@@ -29,7 +29,6 @@ public class RepetingElement {
     }
 
     static int findRepeatingNumber(int[] nums){
-        int n = nums.length -1;
         
         int xorNums = nums[0];
         int xorIdeal = 1;
