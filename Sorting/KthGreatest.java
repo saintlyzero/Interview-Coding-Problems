@@ -5,6 +5,12 @@ import java.util.Random;
 /**
  * KthGreatest
  * 
+ * Eg: 
+ * 
+ * arr = [90,70,30,10,20,1]; K = 2
+ * o/p = 70
+ * 
+ * 
  * Average time complexity T(n) satisfies T(n) = 0(n) + T(n/2) => T(n)
  * Worst-case time complexity is 0(n2) which occurs when the randomly selected pivot 
  * is the smallest or largest element in the current subarray.
