@@ -54,6 +54,7 @@ Some common Interview coding problems implemented using Java / Python
 - [Sorting array depending on the Frequency of each element](/Sorting/FrequencySort.java)
 - [Sorting array depending on the Frequency of each element in ascending order and if frequencies are equal, then sort the elements in ascending order](/Sorting/SortByFrequency.java)
 - [Sorting list of Student objects depending on the marks of each student in descending order and if marks are equal, then sort them depending on their name in ascending order](/Sorting/ObjectSorting.java)
+- [Computing the kth largest element in an array. Assume entries are distinct](/Sorting/KthGreatest.java)
 
 
 ## Matrix
