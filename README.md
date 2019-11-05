@@ -1,20 +1,22 @@
 
-## Interview-Coding-Problems
+# Interview-Coding-Problems
 
 Some common Interview coding problems implemented using Java / Python
 
 ## Books
+
 - [Cracking the coding Interview 6th Edition](https://drive.google.com/file/d/1SSFgP4PlNgqXBWxa5PcyCMmOUhtsyTJt/view?usp=sharing)
 - [Elements of Programming Interviews Java](https://drive.google.com/open?id=1DRGcYVSkB83YFH1lwBGlFD8mskmrXmM4)
 
-
 ## Stacks
+
 - [Implement N stacks in a array](/Stacks/NStacks.java)
 - [Implement s Stack with push(), pop(), getMinimumElement() in O(1)](/Stacks/SpecialStack.java)
 - [Implement Queue using stacks](/Stacks/QueueUsingStacks.java)
 - [Write a program to sort a stack such that the smallest items are on the top](/Stacks/StackSorting.java)
 
 ## Arrays
+
 - [Finding Maximum Sum Subarray (using Kadane's Algorithm)](/Arrays/MaximumSumSubarray.java)
 - [Counting number of Inversions in an array (using MergeSort Algorithm)](/Arrays/Inversions.java)
 - [Find the smallest window in a string containing all characters of another string (Unordered)](/Arrays/SmallestWindowSubstring.java)
@@ -25,8 +27,8 @@ Some common Interview coding problems implemented using Java / Python
 
 ![](https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png)
 
-
 ## Trees
+
 - [Finding Maximum and Minimum element of a Binary Search Tree](/Trees/FindMinMaxBST.java)
 - [Finding Height of a Binary Tree](/Trees/HeightOfBinaryTree.java)
 - [Check if a binary tree is a Binary Search Tree or not](/Trees/ValidateBST.java)
@@ -39,18 +41,18 @@ Some common Interview coding problems implemented using Java / Python
 - [Construct Binary Tree from Preorder and Inorder Traversal](/Trees/ConstructBinaryTree.py)
 - [Find the Lowest Common Ancestor of a Binary Tree](/Trees/LCA.py)
 
-
-
 ## Linked List
+
 - [Merging two Sorted Linked Lists](/LinkedLists/MergeSortedLinkedList.java)
 
 ## Heaps
+
 - [Find the kth largest element in an unsorted array.](/Heaps/KLargestElement.java)
 - [Find the kth smallest element in an unsorted array.](/Heaps/KSmallestElement.java)
 - [Find the Running Median from a Data Stream.](/Heaps/RunningMeadian.java)
 
-
 ## Sorting
+
 - [Merge Sort](/Sorting/MergeSort.java)
 - [Sorting array depending on the Frequency of each element](/Sorting/FrequencySort.java)
 - [Sorting array depending on the Frequency of each element in ascending order and if frequencies are equal, then sort the elements in ascending order](/Sorting/SortByFrequency.java)
@@ -58,13 +60,9 @@ Some common Interview coding problems implemented using Java / Python
 - [Computing the kth largest element in an array. Assume entries are distinct](/Sorting/KthGreatest.java)
 - [Find the only repetitive element between 1 to n-1](/Sorting/RepetingElement.java)
 
-
 ## Matrix
+
 - [Rotating a N x N Matrix by 90 Degrees](/Matrix/MatrixRotation.java)
 - [Print a given matrix in spiral form](/Matrix/Spiral.java)
 - [Design an algorithm that takes a 2D sorted array and a number and checks whether
 that number appears in the array](/Matrix/SortedMatrix.java)
-
-
-
-
