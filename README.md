@@ -25,7 +25,7 @@ Some common Interview coding problems implemented using Java / Python
 - [Spiral Traversal of N x N Matrix](/Arrays/SpiralTraversalMatrixNxN.java)
 - [Trapping Rain Water : Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining. (See Image Below)](/Arrays/TrappingRainWater.java)
 
-![](https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png)
+![Trapping Rain Water](https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png)
 
 ## Trees
 
