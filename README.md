@@ -37,6 +37,7 @@ Some common Interview coding problems implemented using Java / Python
 - [Binary Tree Traversal using BFS | DFS](/Trees/TreeTraversal.java)
 - [Binary Tree Traversal using BFS | DFS](/Trees/TreeTraversal.java)
 - [Construct Binary Tree from Preorder and Inorder Traversal](/Trees/ConstructBinaryTree.py)
+- [Find the Lowest Common Ancestor of a Binary Tree](/Trees/LCA.py)
 
 
 
