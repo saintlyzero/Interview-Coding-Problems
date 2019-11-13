@@ -66,3 +66,5 @@ Some common Interview coding problems implemented using Java / Python
 - [Print a given matrix in spiral form](/Matrix/Spiral.java)
 - [Design an algorithm that takes a 2D sorted array and a number and checks whether that number appears in the array](/Matrix/SortedMatrix.java)
 
+## Interesting Reads
+- [Design URL Shortening service like TinyURL](https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/)
