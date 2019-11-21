@@ -1,3 +1,5 @@
+# Time Complexity: O(2^(n – 1))
+
 def SolveTowerHannoi(n, from_rod, to_rod, temp_rod):
     if n == 1:
         print("Move Disk 1 from rod {} to rod {}".format(from_rod, to_rod))
