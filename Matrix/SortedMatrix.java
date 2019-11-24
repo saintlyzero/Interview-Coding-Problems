@@ -13,7 +13,7 @@ class SortedMatrix{
                           {3, 6, 8, 10,24},
                           {6, 8, 9, 12,25},
                           {8, 10,12,13,40}};
-        int target = 7;
+        int target = 5;
 
         // Display matrix
         System.out.println("Matrix:\n");
@@ -29,25 +29,40 @@ class SortedMatrix{
 
     public static boolean isPresent(int[][] matrix, int target) {
         
+        if(matrix.length < 1){
+            return false;
+        }
+        
         int row = 0;
-        int column = matrix[0].length - 1;
-
-        while(row < matrix.length && column >= 0){
-
-            int element = matrix[row][column];
-
-            if (element == target) {
+        int col = matrix[0].length - 1; // Number of Columns
+        
+		// Start from first row last column
+        while(row < matrix.length && col >= 0){
+            
+			// Current element
+            int element = matrix[row][col];
+            
+			// If found :)
+            if(element == target){
                 return true;
             }
-            else if (target > element){
-                // eliminate Row
+            
+			// Since the current element is the last element of the row,
+			// there cant be any number greater than it in that row because it as sorted
+            if(target > element){
+			    // eliminate Row
                 row++;
-            } 
-            else if (target < element){
-                // eliminate Column
-                column--;
+            }
+			
+			// If target < current element
+			// Since the current element is the first element of the column,
+			// there cant be any number smaller than it in that column because it as sorted
+            else{
+		    	// eliminate Column
+                col--;
             }
         }
+		// Not Found :(
         return false;
     }
     
