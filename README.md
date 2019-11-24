@@ -26,6 +26,8 @@ Some common Interview coding problems implemented using Java / Python
 - [Trapping Rain Water : Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining. (See Image Below)](/Arrays/TrappingRainWater.java)
 
 ![Trapping Rain Water](https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png)
+- [Maximum Product of Three Numbers](/Arrays/Top3Sum.java)
+
 
 ## Trees
 
