@@ -72,6 +72,7 @@ Some common Interview coding problems implemented using Java / Python
 ## Recursion
 
 - [Program for Tower of Hanoi](/Recursion/TowerOfHannoi.py)
+- [Permutations of an Array](/Recursion/Permutations.java)
 
 ## HashMaps
 
