@@ -1,51 +1,54 @@
 /**
- * CountIslands
+ * 
  * Time Complexity : O(Row * Col)
- * link: https://leetcode.com/problems/number-of-islands/
+ * link: https://www.geeksforgeeks.org/find-length-largest-region-boolean-matrix/
+ * 
  */
-public class CountIslands {
+public class LargestIsland {
 
     public static void main(String[] args) {
-        int matrix[][] = new int[][]{{ 1, 1, 0, 0, 0 },
+        int matrix[][] = new int[][]{{ 1, 1, 1, 0, 0 },
                                      { 0, 1, 0, 0, 1 },
                                      { 1, 0, 0, 1, 1 },
-                                     { 0, 0, 0, 0, 0 },
+                                     { 0, 0, 0, 1, 1 },
                                      { 1, 0, 1, 0, 1 }};
                                      
-        int noOfIslands = findIsland(matrix);
-        System.out.println("No of Islands: "+noOfIslands); // 5
+        int largest = findLargestIsland(matrix);
+        System.out.println("Largest Island size: "+largest); // 7
     }
 
-    public static int findIsland(int[][] matrix){
+    public static int findLargestIsland(int[][] matrix){
 
         int row = matrix.length;
         int col = matrix[0].length;
         boolean[][] isVisited = new boolean[row][col];
-        int islands = 0;
+        int maxIslandSize = 0;
 
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 if(matrix[i][j] == 1 && !isVisited[i][j]){
-                    exploreIsland(matrix, i, j, isVisited);
-                    islands++;
+                    int size = exploreIsland(matrix, i, j, isVisited);
+                    maxIslandSize = Math.max(maxIslandSize, size);
                 }
             }
         }
-        return islands;
+        return maxIslandSize;
     }
 
-    public static void exploreIsland(int[][] matrix, int row, int col, boolean[][] isVisited){
+    public static int exploreIsland(int[][] matrix, int row, int col, boolean[][] isVisited){
         // Performs DFS
         int neighbourRow[] = { -1, -1, -1,  0, 0,  1, 1, 1};
         int neighbourCol[] = { -1,  0,  1, -1, 1, -1, 0, 1};
 
         isVisited[row][col] = true;
+        int size = 1; 
 
         for (int i = 0; i < neighbourRow.length; i++) {
             if(isSafe(matrix, neighbourRow[i] + row, neighbourCol[i] + col, isVisited)){
-                exploreIsland(matrix, neighbourRow[i] + row, neighbourCol[i] + col, isVisited);
+                size += exploreIsland(matrix, neighbourRow[i] + row, neighbourCol[i] + col, isVisited);
             }
         }
+        return size;
     }
 
     public static boolean isSafe(int[][] matrix, int currRow, int currCol, boolean[][]isVisited){
