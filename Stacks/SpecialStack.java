@@ -11,7 +11,7 @@ import java.util.Stack;
 *
 *  specialPop()
 *  primaryStack : directly pop the element
-*  secondaryStack : if top of primaryStack = top of secondaryStack, then only pop froms econdaryStack
+*  secondaryStack : if top of primaryStack = top of secondaryStack, then only pop froms secondaryStack
 *
 * */
 class SpecialStack
