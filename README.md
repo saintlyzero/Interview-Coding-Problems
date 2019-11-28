@@ -12,6 +12,7 @@ Some common Interview coding problems implemented using Java / Python
 
 - [Implement N stacks in a array](/Stacks/NStacks.java)
 - [Implement s Stack with push(), pop(), getMinimumElement() in O(1)](/Stacks/SpecialStack.java)
+- [Implement s Stack with push(), pop(), getMinimumElement() in O(1) Space and O(1) Time](/Stacks/O1Min.java)
 - [Implement Queue using stacks](/Stacks/QueueUsingStacks.java)
 - [Write a program to sort a stack such that the smallest items are on the top](/Stacks/StackSorting.java)
 
@@ -77,6 +78,12 @@ Some common Interview coding problems implemented using Java / Python
 ## HashMaps
 
 - [Design a data structure that supports insert(), remove(), getRandom() operations in average O(1) time.](/HashMaps/CustomDatastructure.py)
+
+## Graphs
+
+- [Find the number of islands is a matrix represented by 1s and 0s](/Graphs/CountIslands.java)
+- [Find length of the largest region in Matrix represented by 1s and 0s](/Graphs/LargestIsland.java)
+
 
 ## Interesting Reads
 
