@@ -47,7 +47,7 @@ Some common Interview coding problems implemented using Java / Python
 
 ## Linked List
 
-- [Merging two Sorted Linked Lists](/LinkedLists/MergeSortedLinkedList.java)
+- [Merge two Sorted Linked Lists](/LinkedLists/MergeSortedLinkedList.java)
 
 ## Heaps
 
