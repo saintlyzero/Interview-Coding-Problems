@@ -74,6 +74,8 @@ Some common Interview coding problems implemented using Java / Python
 
 - [Program for Tower of Hanoi](/Recursion/TowerOfHannoi.py)
 - [Permutations of an Array](/Recursion/Permutations.java)
+- [Print all possible words over a QWERTY keypad corresponding to a phone digits](/Recursion/phone_mnemonics.py)
+
 
 ## HashMaps
 
