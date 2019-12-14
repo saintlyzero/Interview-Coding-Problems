@@ -28,6 +28,8 @@ Some common Interview coding problems implemented using Java / Python
 
 ![Trapping Rain Water](https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png)
 - [Maximum Product of Three Numbers](/Arrays/Top3Sum.java)
+- [Find all unique triplets with zero sum](/Arrays/tripletsum0.py)
+
 
 
 ## Trees
