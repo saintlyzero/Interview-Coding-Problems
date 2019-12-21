@@ -89,6 +89,11 @@ Some common Interview coding problems implemented using Java / Python
 - [Find length of the largest region in Matrix represented by 1s and 0s](/Graphs/LargestIsland.java)
 
 
+## Dynamic Programming
+
+- [Given two words word1 and word2, find the minimum number of operations required to convert word1 to word2. Operations: Add/Remove/Edit a character (Levenshtein distance)](/DynamicProgramming/levenshtein_distance.py)
+- [Coin Change Problem](/DynamicProgramming/coin_change.py)
+
 ## Interesting Reads
 
 - [Design URL Shortening service like TinyURL](https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/)
