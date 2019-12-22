@@ -27,10 +27,9 @@ Some common Interview coding problems implemented using Java / Python
 - [Trapping Rain Water : Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining. (See Image Below)](/Arrays/TrappingRainWater.java)
 
 ![Trapping Rain Water](https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png)
+
 - [Maximum Product of Three Numbers](/Arrays/Top3Sum.java)
 - [Find all unique triplets with zero sum](/Arrays/tripletsum0.py)
-
-
 
 ## Trees
 
@@ -78,7 +77,6 @@ Some common Interview coding problems implemented using Java / Python
 - [Permutations of an Array](/Recursion/Permutations.java)
 - [Print all possible words over a QWERTY keypad corresponding to a phone digits](/Recursion/phone_mnemonics.py)
 
-
 ## HashMaps
 
 - [Design a data structure that supports insert(), remove(), getRandom() operations in average O(1) time.](/HashMaps/CustomDatastructure.py)
@@ -88,11 +86,14 @@ Some common Interview coding problems implemented using Java / Python
 - [Find the number of islands is a matrix represented by 1s and 0s](/Graphs/CountIslands.java)
 - [Find length of the largest region in Matrix represented by 1s and 0s](/Graphs/LargestIsland.java)
 
-
 ## Dynamic Programming
 
 - [Given two words word1 and word2, find the minimum number of operations required to convert word1 to word2. Operations: Add/Remove/Edit a character (Levenshtein distance)](/DynamicProgramming/levenshtein_distance.py)
 - [Coin Change Problem](/DynamicProgramming/coin_change.py)
+
+## Some Cheeky Solutions
+
+- [Migratory Birds](/CheekySolutions/MigratoryBirds.py)
 
 ## Interesting Reads
 
