@@ -90,6 +90,7 @@ Some common Interview coding problems implemented using Java / Python
 
 - [Given two words word1 and word2, find the minimum number of operations required to convert word1 to word2. Operations: Add/Remove/Edit a character (Levenshtein distance)](/DynamicProgramming/levenshtein_distance.py)
 - [Coin Change Problem](/DynamicProgramming/coin_change.py)
+- [Count the number of ways to traverse a 2D array from top-left cell to the bottom-right cell](/DynamicProgramming/array_paths.py)
 
 ## Some Cheeky Solutions
 
