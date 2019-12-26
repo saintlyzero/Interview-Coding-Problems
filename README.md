@@ -3,10 +3,11 @@
 
 Some common Interview coding problems implemented using Java / Python
 
-## Books
+## Learning Resources
 
 - [Cracking the coding Interview 6th Edition](https://drive.google.com/file/d/1SSFgP4PlNgqXBWxa5PcyCMmOUhtsyTJt/view?usp=sharing)
 - [Elements of Programming Interviews Java](https://drive.google.com/open?id=1DRGcYVSkB83YFH1lwBGlFD8mskmrXmM4)
+- [Quick tour of any Language](https://learnxinyminutes.com/)
 
 ## Stacks
 
