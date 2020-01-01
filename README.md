@@ -100,3 +100,4 @@ Some common Interview coding problems implemented using Java / Python
 ## Interesting Reads
 
 - [Design URL Shortening service like TinyURL](https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/)
+- [Automate Boring Stuff Using Python](/Books/automatetheboringstuffwithpython_new.pdf)
